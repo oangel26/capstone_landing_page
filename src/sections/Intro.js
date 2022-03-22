@@ -2,6 +2,12 @@ import React from 'react';
 import Header from '../components/Header';
 import styled from 'styled-components';
 
+const P = styled.p`
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bebas Neue', cursive; 
+    margin: 10px 50px;
+    text-align: center;
+`;
 const Div = styled.div`
     background-image: url("https://cdn.pixabay.com/photo/2015/01/11/10/28/container-ship-596083_1280.jpg");
     background-color: #cccccc;
@@ -10,9 +16,9 @@ const Div = styled.div`
     background-repetition: none;
 `;
 const H1 = styled.h1`
+    font-family: 'Bebas Neue', cursive;
     margin: 0px;
     color: #003459;
-    text-transform: uppercase;
 `;
 
 const Description = styled.div`
@@ -46,9 +52,9 @@ function Intro() {
         <Description>
             <Box>
             <H1>Subscribtion page and user management</H1>
-                <p>Page with login and register for ALAS users, 
+                <P>Page with login and register for ALAS users, 
                     which can access to different services according to the users subscrition permits.
-                </p>
+                </P>
             </Box>
             <Box>
                 <a target = "_blank" href = "http://www.google.com">
