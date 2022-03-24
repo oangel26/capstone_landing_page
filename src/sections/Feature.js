@@ -7,18 +7,20 @@ const Title = styled.h2`
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     padding-top: 20px;
+    font-size: 30px;
 `;
 
 const P = styled.p`
     margin: 20px 30px;
     box-sizing: border-box;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-family: 'Bebas Neue', cursive; 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
 `;
 
 const Subtitle = styled.h3`
     font-family: 'Bebas Neue', cursive;
     text-align: center;
+    font-size: 25px;
 `;
 
 const Section = styled.section`
@@ -40,7 +42,6 @@ const Example = styled.img`
 const Div = styled.div`
     display: flex;
     background-color: #449DD1;
-    color: #003459;
 `;
 
 const Item = styled.div`
@@ -54,15 +55,15 @@ function Feature() {
             <Title>Project Features</Title>
             <Div>
                 <Item>
-                    <Subtitle>User Subscription Management</Subtitle>
-                    <P>The admin has the posibility to edit or delete user subscriptions allowing the user to have access only to permited files.</P>
+                    <Subtitle>Landing page</Subtitle>
+                    <P>The users can access the company information thought it's landing page, also do the login and registration process.</P>
                 </Item>
                 <Item>
-                    <Subtitle>User Subscription Services</Subtitle>
+                    <Subtitle>User Service Interface</Subtitle>
                     <P>Different files are shown and can be accessed by the user according to the type of subscripiton held.</P>
                 </Item>
                 <Item>
-                    <Subtitle>Database Management of Users</Subtitle>
+                    <Subtitle>User Database Management System</Subtitle>
                     <P>Registration of users are stored in the database. This information can be edited or delted by the user.</P>
                 </Item>
             </Div>

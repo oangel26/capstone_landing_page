@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import img_diana from '../images/diana-henao.png';
 import img_rodrigo from '../images/rodrigo-zarate.jpg';
 import img_jose from '../images/jose-valdiviezo.jpg';
-import img_oscar from '../images/oscar-angel.png';
+import img_oscar from '../images/oscar-angel.jpeg';
 
 const Title = styled.h2`
     font-family: 'Bebas Neue', cursive;
@@ -30,8 +30,8 @@ const Div = styled.div`
 const P = styled.p`
     margin: 20px 30px;
     box-sizing: border-box;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-family: 'Bebas Neue', cursive; 
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
 `;
 
 const A = styled.a`
@@ -48,15 +48,16 @@ function About() {
             <Title>Our Team</Title>
         <div>
             <P>
-                One of our teammates family business got their web page hacked and all the information related to the bussiness, as the register and login mechanisms where lost. Because of this, we wanted to restore the ALAS Soport Logico page, by givin a new desing and creating a user management system, so the company could give access to private files to their clients.
-                One of our main motivations of getting this proyect done was to solve a real world problem and also learn new technologies, as React and Node.js, in the way.
-                Also, we where exited of being able to work in teams in order to apply our knowledge in the construction of the backend and frontend of the solution required. 
-
-                To devolpe the proyect we had to:
-                1) Define the problem   
-                2) Select the best stack for our needs
-                3) Define a project schedule and deliverables
-                4) Have fun coding!
+                One of our teammates family business got their web page hacked, and with it, all the information related to the bussiness logic code and web page. 
+                
+                Because of this, we wanted to restore the ALAS Soporte Logico page, by givin a new desing and creating a user management system, so the company could give access to private files to their clients.
+                One of our main motivations of getting this proyect done was to solve a real world problem and also learn new technologies in the way, such as React and Node.js.
+                Also, we where exited of being able to work in teams and apply our knowledge in the construction of the backend and frontend of the solution. 
+                <ul>To devolpe the proyect we had to:</ul>
+                <ul>1) Define the problem</ul>
+                <ul>2) Select the best stack for our needs</ul>
+                <ul>3) Define a project schedule and deliverables</ul>
+                <ul>4) Have fun coding!</ul>
             </P>
             <A href = "https://github.com/rodrigozarate/capstone_v1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
   <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>

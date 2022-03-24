@@ -3,8 +3,7 @@ import Header from '../components/Header';
 import styled from 'styled-components';
 
 const P = styled.p`
-    font-family: 'Barlow Condensed', sans-serif;
-    font-family: 'Bebas Neue', cursive; 
+    font-family: 'Quicksand', sans-serif;
     margin: 10px 50px;
     text-align: center;
 `;
@@ -19,6 +18,7 @@ const H1 = styled.h1`
     font-family: 'Bebas Neue', cursive;
     margin: 0px;
     color: #003459;
+    font-size: 40px;
 `;
 
 const Description = styled.div`
@@ -51,9 +51,8 @@ function Intro() {
         </Div>
         <Description>
             <Box>
-            <H1>Subscribtion page and user management</H1>
-                <P>Page with login and register for ALAS users, 
-                    which can access to different services according to the users subscrition permits.
+            <H1>ALAS Soport Logico ltda. Web page restoration, user database management system, and user service interface </H1>
+                <P>This project was made to give a solution ALAS Soporte Logico ltda. By devoloping it's landing page, so clients could access the company information and subscribe. Also, a web application was developed so the company cound have control over the subscription permits of the useres, and finaly a user interface was included to improve the file downloading experience of users.                     
                 </P>
             </Box>
             <Box>
